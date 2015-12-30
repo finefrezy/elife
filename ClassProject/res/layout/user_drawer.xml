@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/user_base_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/user_head"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_head"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:text="Frenzy"
+                android:textColor="@android:color/black" >
+            </TextView>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/user_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/draw_login" >
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_message"
+                style="@style/draw_text"
+                android:drawableLeft="@drawable/draw_menu_icn_msg"
+                android:text="@string/draw_message" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/user_grade"
+                style="@style/draw_text"
+                android:drawableLeft="@drawable/draw_menu_icn_level"
+                android:text="@string/draw_grade" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/user_skin"
+                style="@style/draw_text"
+                android:drawableLeft="@drawable/draw_menu_icn_skin"
+                android:text="@string/draw_skin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_setting"
+                style="@style/draw_text"
+                android:drawableLeft="@drawable/draw_menu_icn_set"
+                android:text="@string/draw_setting" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

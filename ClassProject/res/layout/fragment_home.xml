@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/home_radio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/dark"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <RadioButton
+            android:id="@+id/rb_main_home"
+            style="@style/main_tab_bottom"
+            android:checked="true"
+            android:drawableTop="@drawable/msg_selector"
+            android:text="@string/main_home" />
+
+        <RadioButton
+            android:id="@+id/rb_main_chat"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/msg_selector"
+            android:text="@string/main_chat" />
+
+        <RadioButton
+            android:id="@+id/rb_main_letter"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/letter"
+             />
+
+        <RadioButton
+            android:id="@+id/rb_main_friend"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/msg_selector"
+            android:text="@string/main_frends" />
+
+        <RadioButton
+            android:id="@+id/rb_main_forum"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/msg_selector"
+            android:text="@string/main_forum" />
+    </RadioGroup>
+
+</LinearLayout>

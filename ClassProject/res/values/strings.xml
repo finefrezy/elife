@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">elife</string>
+    <string name="main_home">主页</string>
+    <string name="main_chat">聊天</string>
+    <string name="main_frends">朋友</string>
+    <string name="main_forum">论坛</string>
+    <string name="footer_hint_normal">查看更多</string>
+    <string name="footer_hint_ready">松开载入更多</string>
+    <string name="drawer_open">打开抽屉</string>
+    <string name="drawer_close">关闭抽屉</string>
+    <string name="title_action_search">搜索</string>
+    <string name="title_action_scan">扫一扫</string>
+    <string name="draw_setting">设置</string>
+    <string name="draw_skin">皮肤</string>
+    <string name="draw_grade">积分</string>
+    <string name="draw_message">消息</string>
+    <string name="title_activity_login">登录</string>
+    <string name="draw_login">马上登录</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
